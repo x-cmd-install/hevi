@@ -7,7 +7,7 @@ about:
   head: efcb9be
   archived: true
   latestVersion: v1.1.0
-  collectedAt: 2026-09-04T19:22:56Z
+  collectedAt: 2026-09-04T21:10:34Z
 timeline:
   created: 2023-09-15
   lastCommit: 2025-12-14
@@ -83,5 +83,38 @@ total:
   openIssue: 7
   commit: 153
 ---
+path: /home/runner/.x-repo/github.com/Arnau478/hevi
+collectedAt: 2026-09-04T21:10:35Z
+loc:
+  Zig:
+    code: 1159
+    comments: 27
+    blanks: 197
+    files: 10
+  Nix:
+    code: 59
+    comments: 0
+    blanks: 10
+    files: 2
+  Css:
+    code: 27
+    comments: 0
+    blanks: 3
+    files: 1
+  Html:
+    code: 22
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 87
+    blanks: 34
+    files: 1
+total:
+  code: 1297
+  comments: 114
+  blanks: 244
+  files: 15
 ---
 

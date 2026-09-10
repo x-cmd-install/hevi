@@ -1,0 +1,128 @@
+- repo: homebrew
+  srcname: hevi
+  visiblename: hevi
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Hex viewer
+- repo: aur
+  srcname: hevi
+  binname: hevi
+  visiblename: hevi
+  version: 1.1.0
+  origversion: 1.1.0+r28+g6f46f9e-1
+  status: newest
+  summary: A modern hex viewer
+  maintainers:
+    - vitaliikuzhdin@aur
+    - arnauc@aur
+  licenses:
+    - GPL-3.0-only
+- repo: aur
+  srcname: hevi-bin
+  binname: hevi-bin
+  visiblename: hevi-bin
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: newest
+  summary: A modern hex viewer
+  maintainers:
+    - arnauc@aur
+    - vitaliikuzhdin@aur
+  licenses:
+    - GPL-3.0-or-later
+- repo: aur
+  srcname: hevi-git
+  binname: hevi-git
+  visiblename: hevi-git
+  version: 1.1.0.r10.gcbfa59d
+  origversion: 1.1.0.r10.gcbfa59d-1
+  status: rolling
+  summary: A modern hex viewer
+  maintainers:
+    - arnauc@aur
+  licenses:
+    - GPL-3.0-or-later
+- repo: gentoo_ovl_guru
+  srcname: dev-util/hevi
+  visiblename: dev-util/hevi
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: A terminal hex dump tool
+  maintainers:
+    - arnauxabia@gmail.com
+  licenses:
+    - GPL-3
+  categories:
+    - dev-util
+- repo: liguros_stable
+  srcname: dev-util/hevi
+  visiblename: dev-util/hevi
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: A terminal hex dump tool
+  maintainers:
+    - arnauxabia@gmail.com
+  licenses:
+    - GPL-3
+  categories:
+    - dev-util
+- repo: liguros_develop
+  srcname: dev-util/hevi
+  visiblename: dev-util/hevi
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: A terminal hex dump tool
+  maintainers:
+    - arnauxabia@gmail.com
+  licenses:
+    - GPL-3
+  categories:
+    - dev-util
+- repo: nix_stable_25_05
+  srcname: hevi
+  visiblename: hevi
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Hex viewer
+  maintainers:
+    - jaredbaur@fastmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_25_11
+  srcname: hevi
+  visiblename: hevi
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Hex viewer
+  maintainers:
+    - jaredbaur@fastmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_26_05
+  srcname: hevi
+  visiblename: hevi
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Hex viewer
+  maintainers:
+    - jaredbaur@fastmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: nix_unstable
+  srcname: hevi
+  visiblename: hevi
+  version: 1.1.0-unstable-2026-05-03
+  origversion: null
+  status: ignored
+  summary: Hex viewer
+  maintainers:
+    - jaredbaur@fastmail.com
+  licenses:
+    - GPL-3.0-only

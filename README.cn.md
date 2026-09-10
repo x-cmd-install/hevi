@@ -6,13 +6,25 @@
 
 ⚠️ MIGRATED TO CODEBERG ⚠️
 
-![hevi](https://repo.x-cmd.io/hevi.svg)
+![hevi](https://repo.x-cmd.io/hevi.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install hevi
 ```
+
+## 代码规模
+
+合计: **1,267** 行代码（覆盖前 5 种语言、共 **15** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Zig | 1,159 | 27 | 197 | 10 |
+| Nix | 59 | 0 | 10 | 2 |
+| Css | 27 | 0 | 3 | 1 |
+| Html | 22 | 0 | 0 | 1 |
+| Markdown | 0 | 87 | 34 | 1 |
 
 ## 源代码
 
@@ -25,7 +37,6 @@ x install hevi
 - **最新版本**: `v1.1.0` (2024-08-21)
 - **最近提交**: 2025-12-14
 - **Release 含资产**: 8 个
-- **发布时间**: 2024-08-21T13:11:04Z
 
 ## 流行度
 
@@ -40,20 +51,33 @@ x install hevi
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last720d | 2024-09-20 | 0 | 8 | 0 | 3 | 3 | 28 |
 
-## 代码规模
+## Release 资产
 
-合计: **1,267** 行代码（覆盖前 5 种语言、共 **15** 个文件）。
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [hevi-aarch64-linux](https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-aarch64-linux) | 130.5 KiB | `native/linux/arm64` |
+| [hevi-aarch64-macos](https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-aarch64-macos) | 159.9 KiB | `native/darwin/arm64` |
+| [hevi-aarch64-windows.exe](https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-aarch64-windows.exe) | 351.5 KiB | `native/win/arm64` |
+| [hevi-x86-linux](https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86-linux) | 128.4 KiB | `other` |
+| [hevi-x86-windows.exe](https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86-windows.exe) | 419.0 KiB | `native/win/x64` |
+| [hevi-x86_64-linux](https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86_64-linux) | 134.2 KiB | `native/linux/x64` |
+| [hevi-x86_64-macos](https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86_64-macos) | 132.3 KiB | `native/darwin/x64` |
+| [hevi-x86_64-windows.exe](https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86_64-windows.exe) | 366.5 KiB | `native/win/x64` |
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Zig | 1,159 | 27 | 197 | 10 |
-| Nix | 59 | 0 | 10 | 2 |
-| Css | 27 | 0 | 3 | 1 |
-| Html | 22 | 0 | 0 | 1 |
-| Markdown | 0 | 87 | 34 | 1 |
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/hevi) 上共有 **11** 个发行版报告此项目。**9** 个 ✅ 已是最新上游版本，**0** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Homebrew | `1.1.0` | ✅ latest |
+| Nix unstable | `1.1.0-unstable-2026-05-03` | ignored |
 
 ## 改进这些数据
 
@@ -64,4 +88,4 @@ hevi 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:23:19Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:34:14Z._
